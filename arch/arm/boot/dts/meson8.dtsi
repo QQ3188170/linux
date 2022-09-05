@@ -669,6 +669,15 @@
 				bias-pull-up;
 			};
 		};
+		
+		sdxc_c_pins: sdxc-c {
+			mux {
+				groups = "sdxc_d0_c", "sdxc_d13_c","sdxc_d47_c",
+					 "sdxc_clk_c", "sdxc_cmd_c";
+				function = "sdxc_c";
+				bias-pull-up;
+			};
+		};
 
 		spdif_out_pins: spdif-out {
 			mux {
