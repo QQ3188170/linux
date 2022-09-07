@@ -2204,11 +2204,8 @@ KVER := $(KERNEL_VER)
 MODDESTDIR := /lib/modules/$(KVER)/kernel/drivers/net/wireless/realtek/rtl8189es
 
 ifndef KSRC
-KSRC := /home/rainxi/文档/B860A/build
-KSRC += O=/home/rainxi/文档/B860A/build
+KSRC := $(KERNEL_BUILD_PATH)
 endif
-
-
 
 endif
 
