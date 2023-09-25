@@ -64,8 +64,6 @@
 	#include <drv_types_ce.h>
 #endif
 
-/* #include <rtw_byteorder.h> */
-
 #ifndef BIT
 	#define BIT(x)	(1 << (x))
 #endif
